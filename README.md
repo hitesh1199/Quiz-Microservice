@@ -20,10 +20,9 @@ Here are some endpoints you can call:
 ### Get information about system health, configurations, etc.
 
 ```
-http://localhost:8080/question/calculateScore
-http://localhost:8080/question/generate
-http://localhost:8080/question/getQuestions
-http://localhost:8080/question/create
+http://localhost:8080/quiz/create
+http://localhost:8080/quiz/get/{id}
+http://localhost:8080/quiz/submit/{id}
 ```
 
 
